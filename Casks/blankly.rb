@@ -1,12 +1,13 @@
 cask "blankly" do
-  version "1.2"
-  sha256 "a8b855961a21976708f1485b8f871b8074a57eceda051877ebd24f6509ed8985"
+  version "1.3"
+  sha256 "1f6b345469c11ae0dec4297c8ff7876c332d6f05f299c1451c8a0216e6c03cdc"
 
   url "https://github.com/Guf-Hub/blankly/releases/download/v#{version}/Blankly-#{version}.dmg"
   name "Blankly"
   desc "Create a new file or folder right where you are"
   homepage "https://github.com/Guf-Hub/blankly"
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "Blankly.app"
