@@ -1,6 +1,6 @@
 cask "blankly" do
-  version "1.1"
-  sha256 "5e72bde57b936cd76ba35b0e54c4bdab1c58ccb2f2ac95fba0e5cee205cb9072"
+  version "1.2"
+  sha256 "a8b855961a21976708f1485b8f871b8074a57eceda051877ebd24f6509ed8985"
 
   url "https://github.com/Guf-Hub/blankly/releases/download/v#{version}/Blankly-#{version}.dmg"
   name "Blankly"
