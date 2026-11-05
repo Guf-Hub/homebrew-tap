@@ -17,7 +17,10 @@ cask "blankly" do
   ]
 
   caveats <<~EOS
-    Blankly is not notarized by Apple. On first launch macOS blocks it:
-      System Settings → Privacy & Security → Open Anyway
+    Blankly is not notarized by Apple, so on first launch macOS says
+    "Blankly.app" Not Opened. Click Done (not Move to Trash), then:
+      System Settings → Privacy & Security → Open Anyway → Open Anyway
+    Or in Terminal:
+      xattr -dr com.apple.quarantine /Applications/Blankly.app
   EOS
 end
