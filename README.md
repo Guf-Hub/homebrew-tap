@@ -1,6 +1,8 @@
 # Guf-Hub Homebrew Tap
 
 ```bash
+brew tap guf-hub/tap
+brew trust --cask guf-hub/tap/blankly
 brew install --cask guf-hub/tap/blankly
 ```
 
