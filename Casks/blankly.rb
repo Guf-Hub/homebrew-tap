@@ -2,7 +2,7 @@ cask "blankly" do
   version "1.4"
   sha256 "2f76595159dda7dbe5c4a108035f3cd67900f4ea13da4cc3b1dbe62348e69f6d"
 
-  url "https://github.com/Guf-Hub/blankly/releases/download/v#{version}/Blankly-#{version}.dmg"
+  url "https://github.com/Guf-Hub/blankly/releases/download/v#{version}/Blankly.dmg"
   name "Blankly"
   desc "Create a new file or folder right where you are"
   homepage "https://github.com/Guf-Hub/blankly"
