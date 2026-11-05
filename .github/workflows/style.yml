@@ -1,0 +1,11 @@
+name: style
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  style:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew style Casks/
